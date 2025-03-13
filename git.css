@@ -1,0 +1,83 @@
+.git{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: small;
+    margin-bottom: 10px;
+    border-radius: 5px;
+
+}
+h4{
+    font-size: x-large;
+    font-weight: lighter;
+}
+    
+.main{
+    display:flex;
+    flex-direction: column;
+    background-color:rgb(248, 248, 252);
+    border:1px solid rgb(155, 150, 150);
+    width:300px;
+
+    border-radius:5px;
+    justify-content: space-evenly;
+    margin-bottom:15px; 
+    padding-left:10px;
+}
+.password{
+    display:flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    
+
+}
+.element{
+    padding-left: 70px;
+}
+.sign{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:rgb(253, 254, 255);
+    border:1px solid rgb(155, 150, 150);
+    width:300px;
+    height:70px;
+    border-radius:5px;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+.account{
+    display :flex;
+    align-items: center;
+    flex-direction: row;
+}
+.text{
+    border-radius: 5px;
+    height:30px;
+    width:280;
+}
+ .text:focus{
+    border:2px solid blue;
+    outline:none;
+} 
+button{
+    width:280px;
+    height: 28px;
+    color:white;
+    background-color:green;
+    border-radius:5px;
+    
+}
+.anchor{
+    font-weight :550;
+}
+
+
+a{
+    color:blue;
+    text-decoration: none;
+    
+}
+
